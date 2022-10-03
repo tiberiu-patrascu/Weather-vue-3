@@ -1,0 +1,23 @@
+{
+  "name": "weather",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@intlify/unplugin-vue-i18n": "^0.7.0",
+    "axios": "^0.27.2",
+    "mitt": "^3.0.0",
+    "vue": "^3.2.38",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^6.0.3",
+    "@intlify/vue-i18n-loader": "^5.0.0",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "vite": "^3.0.9"
+  }
+}
